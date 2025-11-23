@@ -1,4 +1,4 @@
-# FAQ-Mate
+# 🌟 FAQ-Mate
 
 FAQ Mate is a web based support assistant powered by IBM Watsonx Orchestrate.
 It is a fully static site built with HTML, CSS, and JavaScript, and it embeds the Watsonx chat widget directly into the page.
