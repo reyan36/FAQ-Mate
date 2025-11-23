@@ -81,7 +81,7 @@ This project was created as part of the **Agentic AI Hackathon with IBM watsonx 
 ## Developers
 
 - [@Kaleem Ullah](https://www.linkedin.com/in/kaleemullah2023/)
-- [@Esha Ali](https://www.linkedin.com/in/eisha-ali-/)
+- [@Eisha Ali](https://www.linkedin.com/in/eisha-ali-/)
 - [@Reyan Arshad](https://www.linkedin.com/in/reyan36/)
 - [@Anees Ahmad](https://www.linkedin.com/in/aneesahmad206/)
 
