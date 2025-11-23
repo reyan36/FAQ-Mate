@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ Mate - Customer Support</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script>
+        window.wxOConfiguration = {
+            orchestrationID: "c1bef2a042c54d959b7dcbfb230449e9_c83b7fc2-eef2-49fd-8acb-99990ac10c5d",
+            hostURL: "https://us-south.watson-orchestrate.cloud.ibm.com",
+            rootElementID: "root",
+            deploymentPlatform: "ibmcloud",
+            crn: "crn:v1:bluemix:public:watsonx-orchestrate:us-south:a/c1bef2a042c54d959b7dcbfb230449e9:c83b7fc2-eef2-49fd-8acb-99990ac10c5d::",
+            chatOptions: {
+                agentId: "c83f391e-d4a3-4985-85e2-d15e4360e249",
+            }
+        };
+        setTimeout(function () {
+            const script = document.createElement('script');
+            script.src = `${window.wxOConfiguration.hostURL}/wxochat/wxoLoader.js?embed=true`;
+            script.addEventListener('load', function () {
+                wxoLoader.init();
+            });
+            document.head.appendChild(script);
+        }, 0);                     
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>FAQ Mate</h1>
+        <p>Hey, Ask me anything.</p>
+        <i class="fa-solid fa-arrow-rotate-right fa-xl" style="color: #008059;" id="reset-button"></i>
+        <div class="chatbox-container">
+            <div id="chatbox"></div>
+        </div>
+
+        <div class="chat-container">
+            <form id="chat-form">
+                <input type="text" id="user-input" placeholder="Ask me a question..." required>
+                <input type="submit" value="Send">
+            </form>
+        </div>
+
+        <div class="powered">
+            Powered by <span style="font-weight: bold;">IBM Watson</span>
+        </div>
+    </div>
+
+    <footer>
+        <p class="lablab-footer">
+            Made with 💓 for<a href="https://lablab.ai/event/agentic-ai-hackathon-ibm-watsonx-orchestrate"
+                target="_blank">Lablab AI Hackathon</a>
+        </p>
+        <p>&copy; 2025 FAQ Mate <a href="#">GitHub Repo</a> | <a href="#">Privacy Policy</a></p>
+    </footer>
+
+
+    <button class="fun-fact-btn" onclick="showFunFact()">
+        Fun Fact
+    </button>
+
+
+    <button class="messenger-btn" onclick="openMessenger()">
+        <i class="fab fa-facebook-messenger"></i> Chat on Messenger
+    </button>
+
+
+    <div id="fun-fact" class="fun-fact">
+        <span class="close-btn" onclick="closeFunFact()">×</span>
+        <p id="fun-fact-text"></p>
+    </div>
+
+    <div id="root"></div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
