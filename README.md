@@ -46,7 +46,7 @@ If you encounter a 401 Unauthorized error with Watsonx Orchestrate, follow these
 
 2. Run the tool in PowerShell.
 
-3. Disable security (⚠️ Use only for testing purposes).
+3. Disable security (🚨 Use only for testing purposes ).
 
 4. The bot should now function correctly in Draft Mode.
 
@@ -66,7 +66,7 @@ Click on the link below to chat with it on Messenger.
 
 Click on the link to show Demo
 
-[Live Demo on Vercel](#)
+[Live Demo on Vercel](https://faq-mate.vercel.app/)
 
 ---
 
