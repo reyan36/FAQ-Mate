@@ -1,11 +1,11 @@
-# 🌟 FAQ-Mate
+# FAQ Mate
 
 FAQ Mate is a web based support assistant powered by IBM Watsonx Orchestrate.
 It is a fully static site built with HTML, CSS, and JavaScript, and it embeds the Watsonx chat widget directly into the page.
 
 ---
 
-## 🚀 Features
+## Features
 
 - **Embedded IBM Watsonx Orchestrate chatbot**
 - **Chat on Messenger** as well
@@ -18,7 +18,7 @@ It is a fully static site built with HTML, CSS, and JavaScript, and it embeds th
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 - index.html
 - script.js
@@ -29,32 +29,17 @@ It is a fully static site built with HTML, CSS, and JavaScript, and it embeds th
 
 ---
 
-📱 Browser Support
+Browser Support
 
-- ✅ Chrome
-- ✅ Firefox 
-- ✅ Safari 
-- ✅ Edge
-
----
-
-## 🔧 Watsonx Orchestrate 401 Error Fix
-
-If you encounter a 401 Unauthorized error with Watsonx Orchestrate, follow these steps to fix it:
-
-1. Download the IBM Security Tool from the official IBM website.
-
-2. Run the tool in PowerShell.
-
-3. Disable security (🚨 Use only for testing purposes ).
-
-4. The bot should now function correctly in Draft Mode.
-
-For more information on how to use the security tool and resolve issues, refer to [IBM's Documentation](https://www.ibm.com/docs/en/watsonx/watson-orchestrate/base?topic=getting-started-watsonx-orchestrate).
+-  Chrome
+-  Firefox 
+-  Safari 
+-  Edge
 
 ---
 
-## 💬 Messenger Chat 
+
+## Messenger Chat 
 
 Click on the link below to chat with it on Messenger.
 
@@ -62,7 +47,7 @@ Click on the link below to chat with it on Messenger.
 
 ---
 
-## 🌐 Live Demo (Vercel)
+## Live Demo (Vercel)
 
 Click on the link to show Demo
 
@@ -70,7 +55,7 @@ Click on the link to show Demo
 
 ---
 
-## 🏆 Project for LabLab AI Hackathon
+## Project for LabLab AI Hackathon
 
 This project was created as part of the **Agentic AI Hackathon with IBM watsonx Orchestrate**.
 
@@ -87,7 +72,7 @@ This project was created as part of the **Agentic AI Hackathon with IBM watsonx 
 
 ---
 
-## 🔗 Useful Links
+## Useful Links
 
 - [Watsonx Orchestrate Documentation](https://www.ibm.com/docs/en/watsonx/watson-orchestrate/base?topic=getting-started-watsonx-orchestrate)
 - [Facebook Developer Console](https://developers.facebook.com/docs/)
@@ -95,4 +80,4 @@ This project was created as part of the **Agentic AI Hackathon with IBM watsonx 
 ---
 
 
-@2025 FAQ-Mate All rights reserved.
+@2025 FAQ Mate All rights reserved.
